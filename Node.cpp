@@ -6,7 +6,7 @@
 #include <string>
 
 
-Node::Node(std::string player,std::string action = "", int nodeIndex, bool isLeaf = false,
+Node::Node(std::string player,std::string action = "", int nodeIndex=0, bool isLeaf = false,
            float p1CIP = 0, float p2CIP = 0)
 {
     this->action = action;

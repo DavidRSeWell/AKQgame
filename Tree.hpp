@@ -14,8 +14,11 @@
 class Tree {
 	
 	private:
-	
-		int treeIndex;
+
+        std::vector<Node> nodes;
+
+        std::vector<Node>::iterator nodeIterator;
+
 	
 	public:
 	
@@ -27,7 +30,7 @@ class Tree {
 	
 		<Node> getNode(int index);
 	
-		std::vector<Node>* getNodes();
+		std::vector<Node> getNodes();
 	
 		<Node> getRoot();
 

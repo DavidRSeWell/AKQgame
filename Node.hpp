@@ -32,8 +32,8 @@ class Node {
 
     public:
 
-        Node(std::string player,std::string action = "", int nodeIndex, bool isLeaf = false,
-             float p1CIP = 0, float p2CIP = 0);
+        Node(std::string player,std::string action, int nodeIndex, bool isLeaf,
+             float p1CIP, float p2CIP);
 };
 
 
